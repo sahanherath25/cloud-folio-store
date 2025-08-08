@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #ffffff;
+
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+
+        --foreground: #ededed;
+    }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*Pagination*/
+
+.swiper-pagination .swiper-pagination-bullet {
+    background: #0ae376; /* Your color */
+    z-index: 100;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: #8617e3; /* Active dot color */
+    z-index: 100;
+}
+
+/*.swiper-pagination .swiper-pagination-bullet-active-next {*/
+/*    background: #9c2323; !* Active dot color *!*/
+/*    z-index: 100;*/
+/*}*/
+
+/*.swiper-pagination-bullet.custom-bullet {*/
+/*    !*width: 24px !important;*!*/
+/*    !*height: 24px !important;*!*/
+/*    background: #8617e3 !important; !* amber-500 *!*/
+/*    border: 2px solid #000 !important;*/
+/*    opacity: 1 !important;*/
+/*}*/
+
+/*.swiper-pagination-bullet-active.custom-bullet {*/
+/*    background: #d97706 !important; !* amber-600 *!*/
+/*}*/

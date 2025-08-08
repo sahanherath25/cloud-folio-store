@@ -2,7 +2,7 @@
 const nextConfig = {
 
     images: {
-        domains: ['plus.unsplash.com',"images.unsplash.com","res.cloudinary.com"]
+        domains: ['plus.unsplash.com',"images.unsplash.com","res.cloudinary.com","lipsum.app"]
     },
 
 };

@@ -4,6 +4,7 @@ import FullSliderCode from "@/app/components/fullSliderCode";
 import HomeIntro from "@/app/components/HomeIntro";
 import AnimatedForm from "@/app/components/Form";
 import CTA from "@/app/components/CTA";
+import FancyBox from "@/app/components/FancyBox";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <HomeIntro/>
         <AnimatedForm/>
         <CTA/>
+        <FancyBox/>
     </div>
   );
 }

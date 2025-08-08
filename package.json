@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fancyapps/ui": "^6.0.22",
     "@hookform/resolvers": "^5.2.1",
     "framer-motion": "^12.23.12",
     "gsap": "^3.13.0",

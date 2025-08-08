@@ -17,7 +17,7 @@ function FancyBox(props) {
             display: {
                 left: [],
                 middle: [],
-                right: [ "slideShow", "fullscreen", "download", "close"],
+                right: ["zoom", "slideShow", "fullscreen", "download", "close"],
             },
             animated: true,
             dragToClose: true,

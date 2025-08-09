@@ -44,7 +44,7 @@ function FullSliderCode(props) {
             >
                 {
                     myData.map((item, index) => {
-                        console.log(" ITEM DATA  ", item)
+                        // console.log(" ITEM DATA  ", item)
                         return (
                             <SwiperSlide key={nanoid(4)}>
                                 <SwiperItem

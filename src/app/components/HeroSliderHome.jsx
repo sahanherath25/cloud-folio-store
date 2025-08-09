@@ -17,7 +17,7 @@ function FullSliderCode(props) {
     if (!myData) return null
     return (
 
-        <div className="w-full  border-2 border-gray-200 overflow-hidden    ">
+        <div className="w-full overflow-hidden    ">
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]}
                 spaceBetween={0}
